@@ -7,14 +7,16 @@ public class Condition {
 	public static void main(String[] args) {
 		
 		
-		//Scanner learning = new learning(System.in);
+		Scanner l = new Scanner(System.in);
 		
 		
 		boolean learning = true;
+		
+		learning=l.nextBoolean();
 
 		
 		
-		if (learning) { 
+		if (learning=true) { 
 		System.out.println("Java programmer");
 		}
 		

@@ -1,22 +1,32 @@
 package codePracticeJava;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class AddTwoNumber {
 
 	public static void main(String[] args) {
 		
+		int number1,number2;
+		
 		Scanner in = new Scanner(System.in);
 		
-		number2 = in.nextLine();
-
-		BigInteger first = new BigInteger(number1); 
+		System.out.println("Enter the Number One Value = ");
 		
-		BigInteger second = new BigInteger(number2); 
 		
-		BigInteger sum;
+		number1=in.nextInt();
+		
+		System.out.println("Enter the Number Two Value = ");
+		
+		number2 =in.nextInt();
 
-		sum = first.add(second);
+		BigInteger first = new BigInteger("number1"); 
+		
+		BigInteger second = new BigInteger("number2"); 
+		
+		BigInteger sum = first.add(new BigInteger("second"));
+
+		
 
 		System.out.println("Result of addition = " + sum);
 
