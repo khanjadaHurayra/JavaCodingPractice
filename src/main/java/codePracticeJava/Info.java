@@ -1,6 +1,6 @@
 package codePracticeJava;
 
-public interface Info {
+ interface Info {
 
 	static final String language = "Java";
 	
@@ -11,6 +11,7 @@ public interface Info {
 		public static void main(String []args) { 
 			
 			Simple obj = new Simple(); 
+			
 			obj.display();
 		}
 
